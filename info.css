@@ -1,0 +1,21 @@
+.wrapper{
+    float : right;
+    width : 90%;
+}
+
+.sideMenu{
+   overflow: hidden;
+} 
+
+.sideBar{
+    margin-top: 70px;
+    position: fixed;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    background-color : #EBE6DD;
+}
+
+.sideBar a{
+    display: block;
+    width: 8em;
+}

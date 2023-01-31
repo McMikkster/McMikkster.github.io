@@ -1,0 +1,117 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{font:sans-serif;
+    font-size:1em;
+    letter-spacing: 1.3px;
+}
+
+nav
+{
+    top: 0;
+    background-color: #FFF;
+    text-align: center;
+    border-bottom: solid black;
+    overflow: hidden;
+    position: fixed;
+    width : 100%;
+}
+
+.wrapper {
+    width : 1300px;
+    margin : 80px auto;
+    padding : 20px;
+}
+
+footer{
+    bottom : 0;
+    width : 100%;
+    padding-bottom: 22px;
+    background: rgb(61,54,50);
+    clear : both;
+    
+}
+
+.footerContent{
+    color: rgb(151,142,138);
+    padding : 0 0 30px 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li
+{
+    display: inline-block;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    color : black;
+}
+
+nav a
+{
+    text-decoration: none;
+    font : 0.8rem sans-serif;
+}
+
+nav li:first-child
+{
+    font-size: 2rem;
+    color : #4F4541;
+}
+nav a:hover{color: black}
+nav a:active{color: blue}
+
+h1,h2,h3,h4
+{
+    color: #4F4541;
+}
+
+h1{
+    letter-spacing: 2px;
+    font : bold 2.5rem sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h2{
+    letter-spacing: 1.8px;
+    font : bold 1.7rem sans-serif;
+    margin-top: 50px;
+}
+
+h3{
+    letter-spacing: 1.5px;
+    font : bold 1.5rem sans-serif;
+    margin-top: 30px;
+}
+
+h4{
+    letter-spacing: 1.3px;
+    font : bold 1.3rem sans-serif;
+    margin-top: 20px;
+}
+
+p {
+    font : 1.1rem sans-serif;
+    line-height: 1.7rem;
+}
+
+.background
+{
+    background-color: beige;
+    padding: 20px;
+    margin: 0 20px 20px 0;
+}
+
+.link{
+    text-decoration: underline;
+    color : red;
+}
+
+
